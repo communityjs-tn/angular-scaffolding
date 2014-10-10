@@ -1,0 +1,28 @@
+{
+  "name": "angular-scaffolding",
+  "version": "0.0.0",
+  "homepage": "https://github.com/communityjs-tn/angular-scaffolding",
+  "authors": [
+    "Anis Bouhachem <leprinceanis@gmail.com>"
+  ],
+  "description": "angularjs seed",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "angularjs",
+    "nodejs",
+    "bowerjs",
+    "grunt",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
