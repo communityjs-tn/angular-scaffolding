@@ -1,4 +1,5 @@
 angular-scaffolding
 ===================
 
-Angularjs project seed (develop)  
+Angularjs project seed (develop)
+
