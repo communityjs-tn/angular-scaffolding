@@ -28,5 +28,4 @@ node_modules
 .lock-wscript
 
 # App ignore
-dist/vendors
-
+dist
