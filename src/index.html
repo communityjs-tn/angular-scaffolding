@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html data-ng-controller="Test as test">
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>{{test.title}}</title>
     <!-- bower:css -->
     <!-- endbower -->
 </head>
 <body>
     <!-- bower:js -->
     <!-- endbower -->
+    <!-- Start app -->
+    <script type="text/javascript">
+        require(["./app/app.js"], function (app) {
+            angular.bootstrap(document.getElementsByTagName("html")[0], [app]);
+        });
+    </script>
 </body>
 </html>

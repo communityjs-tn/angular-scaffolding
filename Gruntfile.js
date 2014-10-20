@@ -21,7 +21,10 @@ module.exports = function(grunt) {
                     cwd: './',
                     dependencies: true,
                     devDependencies: true,
-                    exclude: [],
+                    exclude: [
+                        /jquery/,
+                        "vendors/bootstrap/dist/js/bootstrap.js"
+                    ],
                     fileTypes: {},
                     ignorePath: '',
                     overrides: {
@@ -36,7 +39,7 @@ module.exports = function(grunt) {
                 files: [
                     // includes files within path and its sub-directories
                     {
-                        expand: true, cwd: 'src/', src: ['*'], dest: 'dist/'
+                        expand: true, cwd: 'src/', src: ['**/*'], dest: 'dist/'
                     }
 
                 ]
