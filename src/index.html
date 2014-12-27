@@ -2,7 +2,7 @@
 <html data-ng-controller="Test as test">
 <head lang="en">
     <meta charset="UTF-8">
-    <title>{{test.title}}</title>
+    <title data-ng-bind="test.title"></title>
     <!-- bower:css -->
     <!-- endbower -->
 </head>
@@ -11,7 +11,7 @@
     <!-- endbower -->
     <!-- Start app -->
     <script type="text/javascript">
-        require(["./app/app.js"], function (app) {
+        require && require(["./app/app.js"], function (app) {
             angular.bootstrap(document.getElementsByTagName("html")[0], [app]);
         });
     </script>

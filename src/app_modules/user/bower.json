@@ -1,6 +1,6 @@
 {
-    "name": "angular-scaffolding",
-    "version": "0.0.0",
+    "name": "user",
+    "version": "0.0.1",
     "homepage": "https://github.com/communityjs-tn/angular-scaffolding",
     "authors": [
         "Anis Bouhachem <leprinceanis@gmail.com>"
@@ -26,22 +26,7 @@
         "tests"
     ],
     "dependencies": {
-        "angular-bootstrap": "~0.11.2",
-        "bootstrap": "~3.2.0",
-        "requirejs": "~2.1.15"
     },
-    "modules" : [
-        {
-            "name" : "product",
-            "version": "0.0.1"
-        },
-        {
-            "name" : "stock",
-            "version": "0.0.1"
-        },
-        {
-            "name" : "customer",
-            "version": "0.0.2"
-        }
-    ]
+    "modules" : {
+    }
 }
